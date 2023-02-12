@@ -1,0 +1,243 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url('images/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+html{
+  scroll-behavior: smooth;
+}
+#loading {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  background: white url(images/load.gif) no-repeat center;
+}
+li{
+  font-size: 18px;
+}
+h1 {
+  margin-top: 0px;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 48px;
+}
+.starter {
+  background-image: url('images/pub.jpg');
+  background-size: cover;
+  height: 860px;
+  width: auto;
+  border: black;
+  border-radius: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+.text-animation {
+  color:#fff;
+  opacity:0;
+  text-align: center;
+  padding: 12px;
+}
+.text-animation span {
+  position:relative;
+  top:10px;
+  left:10px;
+  font-size:50px;
+  font-weight:600;
+  opacity:0;
+  animation:fade 300ms ease-in-out forwards;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 48px;
+}
+.center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+@keyframes fade {
+  0% {
+    top:10px;
+    left:10px;
+    filter:blur(15px);
+    opacity:0;
+  }
+  50% {
+    filter:blur(10px);
+    opacity:0.9;
+  }
+  100% {
+    top:0px;
+    left:0px;
+    filter:blur(0px);
+    opacity:1;
+  }  
+}
+@media only screen and (max-width: 768px){ 
+  body{
+  padding: 0;
+  margin: 0;
+  background-image: url('images/back2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh; 
+  }
+  h1 {
+    font-size: 16pt;
+  }
+  .text-animation span {
+    font-size: 16pt;
+  }
+  .starter{
+  background-image: url('images/pub-min.jpg');
+  width: 100%;
+  height: 400px;
+  }
+  .flex-b{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    place-items: center;
+  }
+}
+.space{
+  height: 120px;
+}
+.space2 {
+  height: 111px;
+  background-color:white;
+}
+h2 {
+  padding-bottom: 12px;
+  padding-top: 8px;
+}
+h3 {
+  padding-bottom: 32px;
+  padding-top: 8px;
+}
+.alert-light{
+  transition: 0.9s ease;
+}
+.alert-light.scrolled {
+  opacity: 0.8 !important; 
+}
+.nav-link {
+  position: relative;
+ 
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: rgb(235, 100, 85) !important;
+}
+.red {
+  background-color: rgb(235, 100, 85);
+  border: none !important;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+.white {
+  background-color: white;
+  border: none !important;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  padding-bottom: 20px;
+}
+.card {
+  border: none;
+}
+.saw {
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+a.cr {
+  color: white;
+}
+a.cr:hover {
+  color: rgb(235, 100, 85);
+}
+.media {
+  position: sticky;
+  top: 85%;
+  margin: 0px;
+  height: auto;
+}
+.custom-btn1 {
+  margin-bottom: 50px;
+}
+.custom-btn1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.6s;
+}
+.custom-btn2 {
+  position: sticky;
+  left: 98%;
+  border-radius: 30px 0px 0px 30px;
+  color: black;
+  height: 60px;
+  width: 70px;
+  font-size: 24px;
+}
+.custom-btn2:hover, .custom-btn3:hover, .custom-btn4:hover {
+  border: 1px solid black;
+  transition: 0.6s;
+  opacity: 0.8;
+}
+.custom-btn4 {
+  left: 0%;
+  border-radius: 0px 0px 0px 0px;
+  color: black;
+  height: 60px;
+  width: 60px;
+}
+.custom-btn3 {
+  left: 2%;
+  border-radius: 0px 30px 30px 0px;
+  color: black;
+  height: 60px;
+  width: 60px;
+}
+.icon-s {
+  height: 24px;
+  width: 24px;
+  margin: 8px 0px 6px 0px;
+}
+.zoom-in{
+  overflow: hidden;
+}
+.zoom-in img{
+  transition-property: 2.5s ease;
+  transition-duration: 3s;
+}
+.zoom-in:hover img{
+  transform: scale(1.04);
+}
+.justify-content-center {
+  padding: 12px;
+}
+.footer-copyright {
+  height: 56px;
+  text-align: center;
+  margin-top: 20px;
+}
+.graf-border {
+  border-top: 2px solid black;
+  padding-top: 80px;
+}
+.mailto{
+  color: #005BBD;
+}
+.mailto:hover{
+  color: #eb6455;
+}
