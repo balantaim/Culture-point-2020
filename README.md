@@ -7,3 +7,8 @@
 <p><b>Language:</b> BG, EN</p>
 
 [Culture point link](http://culturepoint.free.bg)
+
+## Images
+
+![SEO report](images/report.PNG)
+![Map](images/map.PNG)
