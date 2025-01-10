@@ -10,5 +10,5 @@
 
 ## Images
 
-![SEO report](images/report.PNG)
+![Lighthouse report](images/report.PNG)
 ![Map](images/map.PNG)
