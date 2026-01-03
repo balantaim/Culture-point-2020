@@ -13,7 +13,4 @@ Disallow: /
 User-agent: ia_archiver
 Disallow: /
 
-User-agent: Googlebot-image
-Disallow:
-
 Sitemap: http://culturepoint.free.bg/sitemap.xml

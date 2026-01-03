@@ -1,0 +1,60 @@
+{
+  "name": "Culture Point Varna",
+  "short_name": "CulturePoint",
+  "id": "culturepoint",
+  "start_url": "/en.html",
+  "lang": "en",
+  "theme_color": "#eb6455",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "orientation": "any",
+  "description": "Culture Point Varna is co-working space. Place where you could show your talents to the people",
+  "icons": [
+    {
+      "src": "/images/maskable/maskable_icon_x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/maskable/maskable_icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/maskable/maskable_icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/maskable/maskable_icon_x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/maskable/maskable_icon.png",
+      "sizes": "189x189",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/pub.jpg",
+      "sizes": "1788x1006",
+      "type": "image/jpg",
+      "label": "Culture activity 1",
+      "form_factor": "wide"
+    },
+        {
+      "src": "/images/work.jpg",
+      "sizes": "1200x800",
+      "type": "image/jpg",
+      "label": "Culture activity 2",
+      "form_factor": "narrow"
+    }
+  ]
+}
