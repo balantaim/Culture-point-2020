@@ -6,7 +6,7 @@
 <p><b>Software:</b> html, css, JavaScript, boostrap framework, AOS timing library, google analitics, google maps api and SEO checked with free online tools</p>
 <p><b>Language:</b> BG, EN</p>
 
-[Culture point link](http://culturepoint.free.bg)
+[Culture point link](https://culturepoint.free.bg)
 
 ## Images
 
